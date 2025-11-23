@@ -24,13 +24,13 @@ const getProductImageFileName = (productName: string): string => {
   // Normalizar o nome do produto para corresponder ao nome do arquivo
   const nameMap: Record<string, string> = {
     'Picanha Fresca': 'picanha',
-    'Frango Inteiro': 'frango_inteiro',
+    'Frango Inteiro': 'frango',
     'Costela de Vaca': 'costela',
-    'Linguiça Toscana': 'linguiça_toscana',
-    'Carne Moída': 'carne_moída',
-    'Hambúrguer Artesanal': 'hamburger',
-    'Espetinhos de Frango': 'espetinhos_de_frango',
-    'Salsicha Premium': 'salsichas',
+    'Linguiça Toscana': 'linguica',
+    'Carne Moída': 'carne',
+    'Hambúrguer Artesanal': 'hamburguer',
+    'Espetinhos de Frango': 'espetinhos',
+    'Salsicha Premium': 'salsicha',
     'Bacon Defumado': 'bacon',
   }
 
